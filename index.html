@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css"></link>
+    <script src="/color.js" defer></script>
+    <title>ColorPicker</title>
+</head>
+<body>
+    <main class="main_bg">
+        <div class="container">
+            <h1 class="txt">CurrentColor = <span class="colorval">rgb(255, 255, 255)</span></h1>
+            <button class="btn">
+                Want Random Color clickMe
+            </button>                             
+        </div>    
+        <div class="container-2">
+            <br>            
+            <label  id="one" for="colorinput">Manage your color configuration: </label><br> <br>           
+            <div class="inputColor">
+                <label id="two">Red-</label>
+                <input val="219" min="0" max="255" type="range" id="red" ><br>                
+            </div>
+            <div class="inputColor">
+                <label id="two">Green-</label>
+                <input val="4" min="0" max="255" type="range" id="green" ><br>                                               
+            </div> 
+            <div class="inputColor">
+                <label id="two">Blue-</label>
+                <input val="178" min="0" max="255" type="range" id="blue" ><br>                
+            </div>
+        </div>        
+    </main>
+</body>
+</html>
