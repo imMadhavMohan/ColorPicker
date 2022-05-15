@@ -6,4 +6,4 @@ here using sliding bars you can configure your own colour combinations
            2. while the 2nd bar -> green colour and
            3. the last 3rd bar -> blue colour 
 it incorporates Js basic concept's + HTML + CSS..
-Link: https://voluble-dasik-5970d6.netlify.app/
+Link: https://charming-choux-0f39d7.netlify.app/
